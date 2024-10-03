@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض المنتجات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f0fa;
+            color: #333;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #d4b0ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section.gallery {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 250px;
+            margin: 20px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>معرض المنتجات</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المعرض</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <h2>اكتشف منتجاتنا</h2>
+        <img src="product1.jpg" alt="المنتج 1">
+        <img src="product2.jpg" alt="المنتج 2">
+        <img src="product3.jpg" alt="المنتج 3">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
